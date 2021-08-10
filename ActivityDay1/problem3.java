@@ -8,7 +8,7 @@ System.out.println("Enter the numbers ");
 n = in.nextInt(); 
 if(n<0 || n>32767) { 
 	System.out.println("Invalid Input"); 
-	qSystem.exit(0); 
+	System.exit(0); 
 	}
 else
 {         
