@@ -1,8 +1,5 @@
 import java.util.Scanner;
 public class problem3{ 
-
-
-
 static int productDigits(int num)
 	{
 		int product=1,n;
