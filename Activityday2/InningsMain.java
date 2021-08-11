@@ -2,9 +2,6 @@ public class InningsMain{
 public static void main(String args[]){
 
 Innings sc=new Innings();
-//sc.name="shiv";
-//sc.address="mysure";
-//sc.mobile="8722748066";
 
 sc.displayInningsDetails();
 
