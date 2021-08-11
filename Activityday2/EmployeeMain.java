@@ -2,9 +2,7 @@ public class EmployeeMain{
 public static void main(String args[]){
 
 Employee sc=new Employee();
-//sc.name="shiv";
-//sc.address="mysure";
-//sc.mobile="8722748066";
+
 
 sc.displayInfo();
 
