@@ -45,16 +45,16 @@ if(i==1)
 
     System.out.println("Enter a  team name: ");
     setTeamname(userinput.nextLine()); 
-   // System.out.println("You entered " + this.getTeamname());
+  
 
 
 System.out.println("Enter a Innings name: ");
     setInningsname(userinput.nextLine()); 
-   // System.out.println("You entered " + this.getInningsname());
+  
 
 System.out.println("Enter a Runs: ");
     setRuns(userinput.nextInt()); 
-  //  System.out.println("You entered " + this.getRuns());
+ 
 
 
 System.out.println("Need"+this.getRuns()+count );
@@ -65,21 +65,18 @@ else
 {
  System.out.println("Enter a  team name: ");
     setTeamname(userinput.nextLine()); 
-   // System.out.println("You entered " + this.getTeamname());
+ 
 
 
 
 System.out.println("Enter a Innings name: ");
     setInningsname(userinput.nextLine()); 
-   // System.out.println("You entered " + this.getInningsname());
+  
 
 System.out.println("Enter a Runs: ");
     setRuns(userinput.nextInt()); 
-  //  System.out.println("You entered " + this.getRuns());
+  
 
-
-//System.out.println("Scored"+this.getRuns());
-//System.out.println("Match Ended");
 }
 }
 
