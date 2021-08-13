@@ -4,7 +4,7 @@ public class Inner {
 	
 	
 	private void getValue() {
-		int sum = 20;
+		
 		
 	class Inner1 {
 			
