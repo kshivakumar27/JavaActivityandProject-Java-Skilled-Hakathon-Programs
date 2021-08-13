@@ -1,76 +1,46 @@
 package Activity1;
+import java.util.*;
 
-import java.util.Scanner;
 
 public class Java2 {
- private int Runscored;
- private float over;
-	
-	
-public int getRunscored() {
-	return Runscored;
-}
-
-
-public void setRunscored(int runscored) {
-	Runscored = runscored;
-}
-
-
-public float getOver() {
-	return over;
-}
-
-
-public void setOver(float over) {
-	this.over = over;
-}
-
-
-
-
-
-
-
+ 
 
 
 
 public static void main(String[] args) {
 	
 	
-	Java2 jj=new Java2();
-
-int i=0,n=0,b=0;
+int overs,runs;
 
 Scanner userinput = new Scanner(System.in);
+System.out.println("Enter the no of overs");
+try {
+	
+	overs = Integer.parseInt(userinput.nextLine());
+	int[] arr = new int[overs];
 
-int arr[] =new int[5];
-
-
-
-System.out.println("Enter the no of overs: ");
+System.out.println(":enter  ");
 int a=userinput.nextInt();
 
 System.out.println("Enter a RunScored in each overs: ");
-for( i=0;i<a;i++) {
+for(int i=0;i<overs;i++) {
 	
 	arr[i]=userinput.nextInt();
 }
 
 System.out.println("Enter the over no : ");
 
-n=userinput.nextInt();
+int n=userinput.nextInt();
 
-//try(){
-if(n==arr[i]) {
-	System.out.println("Enter a total overs faced:: "+arr[i]);
+System.out.println("Enter a total overs faced:: " +arr[n-1]);
+
+
 }
-
-else {
-
-	throw new ArrayIndexOutOfBoundsException();
-
-} 
+ catch(Exception e) {
+// TODO Auto-generated catch block
+	 	System.out.println(e);
+}
+userinput.close();
 	
 }	
 	
